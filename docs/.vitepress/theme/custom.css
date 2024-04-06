@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'mononoki';
+  src: url('/mononoki.ttf');
+}
+
+@font-face {
+  font-family: 'PingFang';
+  src: url('/PingFang.ttf');
+}
+
+:root {
+  --vp-font-family-base: mononoki, PingFang, 'Courier New', Courier, monospace;
+  --vp-font-family-mono: mononoki, PingFang, 'Courier New', Courier, monospace;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #2af598 30%, #009efd);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #2af598 50%, #009efd 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
