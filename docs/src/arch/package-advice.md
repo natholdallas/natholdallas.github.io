@@ -4,7 +4,7 @@
 
 ## neovim
 
-vim 的 plus 版本
+vim 的 plus 版
 
 ```bash
 paru -S neovim
