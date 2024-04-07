@@ -2,6 +2,14 @@
 
 > 说明: 此文章只推荐安装, 不讲食用方法
 
+## neovim
+
+vim 的 plus 版本
+
+```bash
+paru -S neovim
+```
+
 ## google-chrome
 
 一款完全符合`W3C`标准的浏览器
@@ -30,6 +38,14 @@ paru -S jetbrains-fleet
 
 ```bash
 paru -S linuxqq
+```
+
+## neofetch
+
+可以输出自己的电脑配置信息
+
+```bash
+paru -S neofetch
 ```
 
 ## lolcat

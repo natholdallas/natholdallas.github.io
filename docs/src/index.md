@@ -14,8 +14,8 @@ hero:
 
 features:
   - icon: 📘
-    title: ArchLinux
-    details: 参考 ArchLinux 上较为重要的指南，比如 paru，grub，plymouth 之类的
+    title: Arch Linux
+    details: 参考 Arch Linux 上较为重要的指南，比如 paru，grub，plymouth 之类的
   - icon: 📔
     title: Java
     details: 各种 Java 库的使用指南，快速上手 Web 开发，各种库的初始模板，快速成为 cv 工程师

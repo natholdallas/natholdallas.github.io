@@ -18,3 +18,7 @@
 ## 我学完该干什么 ？
 
 网站开发
+
+> 文档只面向有中等水平的读者，不然会读的一头雾水
+> 侧边栏显示的 xxx 包，由于字数太长不好显示，所以去掉 spring-boot-starter
+> 比如 spring-boot-starter-mail 就是 mail 包指南
