@@ -3,9 +3,9 @@ layout: home
 
 hero:
   image:
-    src: https://vitepress.dev/vitepress-logo-large.webp
-  name: "NatholDallas's Doc"
-  text: 'For Learning'
+    src: /favicon.ico
+  name: 'NatholDallas Doc'
+  text: 'For Learn'
   tagline: 想到什么写什么
   actions:
     - theme: brand

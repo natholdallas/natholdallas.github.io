@@ -11,6 +11,10 @@ export const sidebar: DefaultTheme.Sidebar = [
       {
         text: 'Aur与官方包推荐',
         link: '/arch/package-advice'
+      },
+      {
+        text: 'CPU 指南',
+        link: '/arch/cpu-compass'
       }
     ]
   },
@@ -50,6 +54,15 @@ export const sidebar: DefaultTheme.Sidebar = [
   },
   {
     text: 'Other',
-    items: []
+    items: [
+      {
+        text: '引言',
+        link: '/other/index'
+      },
+      {
+        text: 'Vscode 无斜体配置',
+        link: '/other/vscode-noitalic'
+      }
+    ]
   }
 ]

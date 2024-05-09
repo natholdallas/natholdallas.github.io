@@ -1,7 +1,3 @@
----
-lastUpdated: true
----
-
 # SpringBoot 可以使用的 TypeAlias 参考
 
 ```kotlin

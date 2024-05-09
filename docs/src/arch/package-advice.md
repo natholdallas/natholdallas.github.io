@@ -63,3 +63,11 @@ paru -S lolcat
 ```bash
 paru -S sl
 ```
+
+## htop
+
+在终端的性能检测器
+
+```bash
+paru -S htop
+```
