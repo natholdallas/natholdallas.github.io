@@ -62,6 +62,10 @@ export const sidebar: DefaultTheme.Sidebar = [
       {
         text: 'Vscode 无斜体配置',
         link: '/other/vscode-noitalic'
+      },
+      {
+        text: 'Minecraft 常用的 gamerule 命令',
+        link: '/other/mc-gamerule'
       }
     ]
   }
