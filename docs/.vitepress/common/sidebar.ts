@@ -64,8 +64,8 @@ export const sidebar: DefaultTheme.Sidebar = [
         link: '/other/vscode-noitalic'
       },
       {
-        text: 'Minecraft 常用的 gamerule 命令',
-        link: '/other/mc-gamerule'
+        text: 'Minecraft 常用的命令',
+        link: '/other/mc-common'
       }
     ]
   }

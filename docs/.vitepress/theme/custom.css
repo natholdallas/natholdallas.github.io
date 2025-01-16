@@ -1,16 +1,11 @@
 @font-face {
-  font-family: 'PingFang';
-  src: url('/pingfang.ttf');
-}
-
-@font-face {
-  font-family: 'Monaco';
-  src: url('/monaco.ttf');
+  font-family: 'Maple';
+  src: url('/static/maple.ttf');
 }
 
 :root {
-  --vp-font-family-base: Monaco, PingFang, 'Courier New', Courier, monospace;
-  --vp-font-family-mono: Monaco, PingFang, 'Courier New', Courier, monospace;
+  --vp-font-family-base: Maple, PingFang, 'Courier New', Courier, monospace;
+  --vp-font-family-mono: Maple, PingFang, 'Courier New', Courier, monospace;
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   /* --vp-home-hero-image-background-image: -webkit-linear-gradient(45deg, #2af598 50%, #009efd 50%); */
