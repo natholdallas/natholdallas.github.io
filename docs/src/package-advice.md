@@ -71,3 +71,21 @@ paru -S sl
 ```bash
 paru -S htop
 ```
+
+## proxychains-ng
+
+强制代理链 (网络代理)
+
+```bash
+paru -S proxychains-ng
+```
+
+## v2ray / v2raya
+
+代理客户端, 直接复制安装内容
+
+```bash
+paru -S v2ray
+paru -S v2ray-rules-dat-autoupdate
+paru -S v2raya-bin
+```

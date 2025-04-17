@@ -1,0 +1,6 @@
+First Contentful Paint (FCP)  
+Largest Contentful Paint (LCP)  
+First Input Delay (FID)  
+Time to Interactive (TTI)  
+Total Blocking Time (TBT)  
+Cumulative Layout Shift (CLS)

@@ -1,37 +1,24 @@
 import { DefaultTheme } from 'vitepress'
 
+const slash = (path: string) => `/${path}`
+
 export const sidebar: DefaultTheme.Sidebar = [
   {
     text: 'Arch Linux',
     items: [
-      {
-        text: '引言',
-        link: '/arch/index'
-      },
-      {
-        text: 'Aur与官方包推荐',
-        link: '/arch/package-advice'
-      },
-      {
-        text: 'CPU 指南',
-        link: '/arch/cpu-compass'
-      }
+      { text: 'Cachyos', link: slash('cachyos') },
+      { text: 'How Disable Ipv6 ?', link: slash('disable-ipv6') },
+      { text: 'MangoHud Conf', link: slash('mangohud') },
+      { text: 'Recommend Package', link: slash('package-advice') },
+      { text: 'CPU Compass', link: slash('cpu-compass') }
     ]
   },
   {
     text: 'Java',
-    items: []
-  },
-  {
-    text: 'SpringBoot',
     items: [
       {
-        text: '引言',
-        link: '/springboot/index'
-      },
-      {
-        text: 'mail 包指南',
-        link: '/springboot/spring-boot-starter-mail'
+        text: 'spring-boot-starter-mail',
+        link: slash('spring-boot-starter-mail')
       }
     ]
   },
@@ -39,33 +26,34 @@ export const sidebar: DefaultTheme.Sidebar = [
     text: 'Kotlin',
     items: [
       {
-        text: '引言',
-        link: '/kotlin/index'
-      },
-      {
-        text: 'SpringBoot-TypeAlias',
-        link: '/kotlin/springboot-typealias'
+        text: 'SpringBoot TypeAlias',
+        link: slash('springboot-typealias')
       }
     ]
   },
   {
-    text: 'Speedrun',
-    items: []
+    text: 'Go',
+    items: [
+      {
+        text: 'Fiber Review',
+        link: slash('fiber-api')
+      }
+    ]
   },
   {
     text: 'Other',
     items: [
       {
-        text: '引言',
-        link: '/other/index'
+        text: 'Vscode Conf',
+        link: slash('vscode-noitalic')
       },
       {
-        text: 'Vscode 无斜体配置',
-        link: '/other/vscode-noitalic'
+        text: 'Minecraft Commands',
+        link: slash('mc-common')
       },
       {
-        text: 'Minecraft 常用的命令',
-        link: '/other/mc-common'
+        text: 'Frontend performance',
+        link: slash('frontend-performance')
       }
     ]
   }
