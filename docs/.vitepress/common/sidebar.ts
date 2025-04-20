@@ -6,6 +6,9 @@ export const sidebar: DefaultTheme.Sidebar = [
   {
     text: 'Arch Linux',
     items: [
+      { text: 'Arch Linux', link: slash('arch') },
+      { text: 'Kde Plasma', link: slash('kde') },
+      { text: 'Tmux', link: slash('tmux') },
       { text: 'Cachyos', link: slash('cachyos') },
       { text: 'How Disable Ipv6 ?', link: slash('disable-ipv6') },
       { text: 'MangoHud Conf', link: slash('mangohud') },

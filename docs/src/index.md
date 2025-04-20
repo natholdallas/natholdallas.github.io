@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 📖 快速开始
-      link: /cachyos
+      link: /arch
 
 features:
   - icon: 📘
