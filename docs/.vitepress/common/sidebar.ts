@@ -20,7 +20,7 @@ export const sidebar: DefaultTheme.Sidebar = [
   },
   {
     text: 'Java',
-    items: [{ text: 'spring-boot-starter-mail', link: slash('spring-boot-starter-mail') }],
+    items: [{ text: 'Spring Boot Mail', link: slash('spring-boot-starter-mail') }],
   },
   {
     text: 'Kotlin',
@@ -28,14 +28,25 @@ export const sidebar: DefaultTheme.Sidebar = [
   },
   {
     text: 'Go',
-    items: [{ text: 'Fiber Review', link: slash('fiber-api') }],
+    items: [
+      { text: 'Fiber Review', link: slash('fiber') },
+      { text: 'Natools4go', link: slash('natools4go') },
+    ],
   },
   {
-    text: 'Other',
+    text: 'AI',
+    items: [{ text: 'Facefusion', link: slash('facefusion') }],
+  },
+  {
+    text: 'JS',
+    items: [{ text: 'Package.json Compass', link: slash('package-json') }],
+  },
+  {
+    text: 'Etc',
     items: [
-      { text: 'Vscode Conf', link: slash('vscode-noitalic') },
+      { text: 'VSCode Configuration', link: slash('vscode-noitalic') },
       { text: 'Minecraft Commands', link: slash('mc-common') },
-      { text: 'Frontend performance', link: slash('frontend-performance') },
+      { text: 'Frontend Performance', link: slash('frontend-performance') },
     ],
   },
 ]

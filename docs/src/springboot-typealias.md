@@ -6,31 +6,22 @@ import org.springframework.web.bind.annotation.*
 /* Class */
 
 typealias Restful = RestController
-
 typealias RestAdvice = RestControllerAdvice
-
 typealias Advice = ControllerAdvice
 
 /* RequestMapping */
 
 typealias Get = GetMapping
-
 typealias Post = PostMapping
-
 typealias Put = PutMapping
-
 typealias Delete = DeleteMapping
-
 typealias Patch = PatchMapping
 
 /* Method Arguments */
 
 typealias Body = RequestBody
-
 typealias Param = RequestParam
-
 typealias Attr = ModelAttribute
-
 typealias Path = PathVariable
 ```
 

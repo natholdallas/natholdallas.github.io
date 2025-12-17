@@ -15,17 +15,20 @@ hero:
 features:
   - icon: 📘
     title: Arch Linux
-    details: 参考 Arch Linux 上较为重要的指南，比如 paru，grub，plymouth 之类的
+    details: Arch Linux 相关指南文献
   - icon: 📔
     title: Java
-    details: 各种 Java 库的使用指南，快速上手 Web 开发，各种库的初始模板，快速成为 cv 工程师
+    details: Java 指南，快速上手 Web 开发
   - icon: 📕
     title: Kotlin
-    details: 帮助你从 Java 移植到 Kotlin，并且迅速抛弃 Java
+    details: Kotlin 指南，并迅速抛弃 Java
   - icon: 📗
     title: Other
-    details: 其他的东西，主要存放很久以前的烂活，留个念想
+    details: 日用文献
   - icon: 📙
     title: Go
     details: Go 语言
+  - icon: 📓
+    title: AI
+    details: 新趋势发展，势必为编程未来必不可少的一步
 ---
