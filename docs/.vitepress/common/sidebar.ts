@@ -16,6 +16,7 @@ export const sidebar: DefaultTheme.Sidebar = [
       { text: 'CPU Compass', link: slash('cpu-compass') },
       { text: 'Linux Migration', link: slash('linux-migration') },
       { text: 'Locale & Region', link: slash('locale-region') },
+      { text: 'Sudo-rs', link: slash('sudo-rs') },
     ],
   },
   {
@@ -44,6 +45,7 @@ export const sidebar: DefaultTheme.Sidebar = [
   {
     text: 'Etc',
     items: [
+      { text: "No man's sky note", link: slash('nms') },
       { text: 'VSCode Configuration', link: slash('vscode-noitalic') },
       { text: 'Minecraft Commands', link: slash('mc-common') },
       { text: 'Frontend Performance', link: slash('frontend-performance') },
