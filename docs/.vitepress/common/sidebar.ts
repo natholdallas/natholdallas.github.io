@@ -17,6 +17,8 @@ export const sidebar: DefaultTheme.Sidebar = [
       { text: 'Linux Migration', link: slash('linux-migration') },
       { text: 'Locale & Region', link: slash('locale-region') },
       { text: 'Sudo-rs', link: slash('sudo-rs') },
+      { text: 'Systemd-resolved', link: slash('systemd-resolved') },
+      { text: 'Daed', link: slash('daed') },
     ],
   },
   {
